@@ -7,8 +7,9 @@ mengenali dan memahami bentuk objek dari data visual, baik berupa citra statis m
 menjadi krusial dalam analisis citra digital, dengan potensi aplikasi yang luas mulai dari industri manufaktur (inspeksi kualitas), 
 sistem pengawasan otomatis, robotika (navigasi dan interaksi), pengenalan pola, hingga bidang pendidikan.
 
-Sistem deteksi bentuk real-time menggunakan OpenCV dan Python untuk mengidentifikasi segitiga, persegi, lingkaran, dll., 
-baik dari gambar maupun kamera, memungkinkan identifikasi langsung tanpa unggah.
+Sistem deteksi bentuk real-time menggunakan OpenCV, YOLO (You Only Look Once), dan Python dikembangkan untuk mengidentifikasi bentuk-bentuk 
+geometris dasar seperti segitiga, persegi, persegi panjang, dan lingkaran. Sistem ini mampu bekerja baik dari file gambar statis maupun kamera 
+webcam, memungkinkan proses identifikasi bentuk secara langsung dan interaktif tanpa perlu mengunggah file secara manual.
 
 ## Batasan Masalah 
 1. Jenis Bentuk yang Dideteksi: Sistem saat ini difokuskan pada deteksi bentuk-bentuk geometris dasar seperti segitiga, 
