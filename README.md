@@ -1,39 +1,49 @@
-# Deteksi bentuk pada objek
+🔍 Shape Detection in Objects
+📚 Background
+The rapid advancement of computer technology and artificial intelligence—particularly in the field of computer vision—has unlocked countless innovative applications. One fundamental aspect of computer vision is the ability to automatically recognize and interpret shapes from visual data, whether static images or live video streams.
 
-## Latar Belakang
-Perkembangan pesat teknologi komputer dan kecerdasan buatan, khususnya di bidang computer vision, telah membuka peluang 
-inovatif dalam berbagai aplikasi. Salah satu aspek fundamental dalam computer vision adalah kemampuan untuk secara otomatis 
-mengenali dan memahami bentuk objek dari data visual, baik berupa citra statis maupun video. Pengenalan bentuk (shape detection) 
-menjadi krusial dalam analisis citra digital, dengan potensi aplikasi yang luas mulai dari industri manufaktur (inspeksi kualitas), 
-sistem pengawasan otomatis, robotika (navigasi dan interaksi), pengenalan pola, hingga bidang pendidikan.
+Shape detection plays a crucial role in digital image analysis, with widespread applications ranging from:
 
-Sistem deteksi bentuk real-time menggunakan OpenCV, YOLO (You Only Look Once), dan Python dikembangkan untuk mengidentifikasi bentuk-bentuk 
-geometris dasar seperti segitiga, persegi, persegi panjang, dan lingkaran. Sistem ini mampu bekerja baik dari file gambar statis maupun kamera 
-webcam, memungkinkan proses identifikasi bentuk secara langsung dan interaktif tanpa perlu mengunggah file secara manual.
+🏭 Manufacturing (quality inspection)
 
-## Batasan Masalah 
-1. Jenis Bentuk yang Dideteksi: Sistem saat ini difokuskan pada deteksi bentuk-bentuk geometris dasar seperti segitiga, 
-persegi, persegi panjang, dan lingkaran. Deteksi bentuk yang lebih kompleks atau tidak beraturan mungkin belum diimplementasikan.
-2. Kondisi Pencahayaan dan Lingkungan: Kinerja sistem dapat dipengaruhi oleh kondisi pencahayaan yang ekstrem 
-(terlalu terang atau terlalu gelap), keberadaan noise yang signifikan dalam gambar, atau latar belakang yang rumit.
+🎥 Automated surveillance systems
 
-## Tujuan
-1. Mengimplementasikan algoritma deteksi bentuk menggunakan pustaka OpenCV dan bahasa pemrograman Python yang mampu 
-mengidentifikasi bentuk-bentuk geometris dasar (segitiga, persegi, persegi panjang, lingkaran) dari citra digital.
-2. Mengintegrasikan kemampuan sistem untuk menerima input citra dari dua sumber: file gambar statis dan stream 
-video langsung dari kamera webcam.
-3. Menandai bentuk-bentuk yang terdeteksi pada output visual (baik dari file gambar maupun live feed kamera) 
-dengan garis batas dan label nama bentuk yang sesuai.
+🤖 Robotics (navigation and interaction)
 
-## Manfaat 
-1. Pembelajaran yang Lebih Menarik dan Interaktif: Penggunaan kamera real-time mengubah proses belajar 
-yang pasif menjadi pengalaman aktif dan eksploratif.
-2. Pembelajaran Berbasis Eksplorasi dan Penemuan: Aplikasi mendorong pengguna untuk aktif mencari dan 
-mengidentifikasi bentuk-bentuk di lingkungan mereka sendiri.
+🧩 Pattern recognition
 
+🏫 Educational tools
 
-## hasilnya 
-Aplikasi ini memungkinkan pengguna untuk belajar mengenali berbagai bentuk benda di lingkungan sekitar secara interaktif 
-melalui kamera perangkat (webcam atau kamera ponsel). Dengan memanfaatkan teknologi computer vision, aplikasi secara otomatis mendeteksi
-bentuk-bentuk seperti lingkaran, persegi, segitiga, dan lain-lain yang tertangkap oleh kamera secara real-time. Bentuk yang terdeteksi 
-akan ditandai pada layar, disertai dengan label nama bentuknya.
+This project focuses on building a real-time shape detection system using OpenCV, YOLO (You Only Look Once), and Python to identify basic geometric shapes like triangle 🔺, square 🟥, rectangle 🟦, and circle 🟠. The system supports both static image files and live webcam feeds, enabling interactive shape identification without the need to manually upload files.
+
+🚧 Scope & Limitations
+Detected Shape Types:
+The system is limited to detecting basic geometric shapes such as triangles, squares, rectangles, and circles. More complex or irregular shapes are not covered in the current version.
+
+Lighting & Environmental Conditions:
+System performance may be affected by:
+
+Extreme lighting (too bright or too dark)
+
+High image noise
+
+Complex or cluttered backgrounds
+
+🎯 Objectives
+💡 Implement a shape detection algorithm using OpenCV and Python that can identify basic geometric shapes in digital images.
+
+📷 Enable the system to accept input from two sources:
+
+Static image files
+
+Live webcam streams
+
+🏷️ Visually mark detected shapes with bounding outlines and shape name labels on the output display (both images and real-time video).
+
+🌟 Benefits
+🎓 More Interactive Learning:
+Using real-time camera input turns passive learning into an engaging and exploratory experience.
+
+🔎 Exploration-Based Learning:
+Encourages users to actively search and identify shapes in their surroundings, promoting hands-on discovery.
+
