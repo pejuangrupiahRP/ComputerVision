@@ -1,173 +1,184 @@
-# 🎯 Detektif Bentuk & Benda - Aplikasi Pembelajaran Interaktif
+# 🎯 Shape & Object Detective - Interactive Learning App
 
-## 📚 Latar Belakang  
-Kemajuan pesat teknologi komputer dan kecerdasan buatan—khususnya dalam bidang **computer vision**—telah membuka berbagai aplikasi inovatif yang tak terbatas.  
-Salah satu aspek fundamental dari computer vision adalah kemampuan untuk **mengenali dan menginterpretasi bentuk secara otomatis** dari data visual, baik dari gambar statis maupun streaming video langsung.
+## 📚 Background
 
-**Deteksi bentuk** memainkan peran penting dalam analisis gambar digital, dengan aplikasi dalam:
+The rapid advancement of computer technology and artificial intelligence—particularly in **computer vision**—has enabled countless innovative applications.
+One of the core capabilities of computer vision is the ability to **automatically recognize and interpret shapes** from visual data, whether from static images or live video streams.
 
-- 🏭 Manufaktur (inspeksi kualitas)  
-- 🎥 Sistem pengawasan otomatis  
-- 🤖 Robotika (navigasi dan interaksi)  
-- 🧩 Pengenalan pola  
-- 🏫 Alat pembelajaran edukatif
+**Shape detection** plays a crucial role in digital image analysis with applications in:
 
-Proyek ini menampilkan **sistem deteksi bentuk real-time** menggunakan **OpenCV**, **YOLO (You Only Look Once)**, **Next.js**, dan **Python** untuk mengidentifikasi bentuk geometri dasar seperti:
+* 🏦 Manufacturing (quality inspection)
+* 🎥 Automated surveillance systems
+* 🤖 Robotics (navigation and interaction)
+* 🧩 Pattern recognition
+* 🏫 Educational tools
 
-- 🔺 Segitiga  
-- 🟥 Persegi  
-- 🟦 Persegi Panjang  
-- 🟠 Lingkaran  
-- ⭐ Bintang
-- 🥚 Oval
+This project demonstrates a **real-time shape detection system** using **OpenCV**, **YOLO (You Only Look Once)**, **Next.js**, and **Python** to identify basic geometric shapes such as:
 
-Sistem ini mendukung input dari **webcam langsung** dan menampilkan antarmuka web yang **ramah anak** dengan fitur gamifikasi untuk pembelajaran yang menyenangkan.
+* 🔺 Triangle
+* 🔳 Square
+* 🗾 Rectangle
+* 🔸 Circle
+* ⭐ Star
+* 🥚 Oval
 
----
-
-## 🎮 Fitur Utama
-
-### 🌟 **Antarmuka Web Interaktif**
-- **Desain ramah anak** dengan warna-warna cerah dan animasi menarik
-- **Tampilan real-time** dari kamera dengan area scan yang jelas
-- **Kontrol mudah** dengan tombol besar dan intuitif
-
-### 🎯 **Sistem Gamifikasi**
-- **Sistem Skor** - Dapatkan poin untuk setiap deteksi dan gambar yang disimpan
-- **Streak Counter** - Hitung deteksi berturut-turut untuk bonus poin
-- **Tantangan Harian** - Misi khusus seperti "Pemburu Lingkaran" dan "Master Persegi"
-- **Achievement System** - Badge pencapaian untuk memotivasi pembelajaran
-- **Progress Tracking** - Statistik pembelajaran yang komprehensif
-
-### 🔊 **Efek Audio & Visual**
-- **Efek suara** untuk deteksi, penyimpanan, dan pencapaian
-- **Animasi perayaan** saat mencapai milestone
-- **Visual feedback** dengan warna dan animasi yang menarik
-
-### 📚 **Konten Edukatif**
-- **Fakta menarik** tentang setiap bentuk geometri
-- **Informasi dalam bahasa Indonesia** yang mudah dipahami
-- **Visual cards** dengan penjelasan yang menarik
+The system supports input from **live webcam feed** and displays a **child-friendly web interface** with gamified features to enhance learning experience.
 
 ---
 
-## 🚧 Ruang Lingkup & Keterbatasan
+## 🎮 Key Features
 
-1. **Jenis Bentuk yang Terdeteksi**  
-   Saat ini mendukung deteksi bentuk geometri dasar: **segitiga, persegi, persegi panjang, lingkaran, bintang, dan oval**.  
-   Deteksi bentuk yang lebih kompleks atau tidak beraturan belum diimplementasikan.
+### 🌟 **Interactive Web Interface**
 
-2. **Pencahayaan & Lingkungan**  
-   Performa sistem dapat menurun dalam kondisi:
-   - Pencahayaan ekstrem (terlalu terang/gelap)
-   - Noise gambar yang tinggi
-   - Latar belakang yang sibuk atau kompleks
+* **Kid-friendly design** with bright colors and engaging animations
+* **Real-time camera feed** with clearly marked scan area
+* **Intuitive controls** with large, easy-to-use buttons
 
-3. **Kompatibilitas Browser**  
-   Memerlukan browser modern yang mendukung WebRTC untuk akses kamera.
+### 🎯 **Gamification System**
 
----
+* **Score System** - Earn points for each detection and saved image
+* **Streak Counter** - Track consecutive detections for bonus points
+* **Daily Challenges** - Missions like "Circle Hunter" and "Square Master"
+* **Achievement System** - Earn badges to motivate continued learning
+* **Progress Tracking** - Comprehensive learning statistics
 
-## 🎯 Tujuan
+### 🔊 **Audio & Visual Effects**
 
-- 💡 Mengimplementasikan algoritma deteksi bentuk menggunakan **OpenCV**, **YOLO**, dan **Python** untuk mengidentifikasi bentuk geometri dasar.
-- 📷 Menerima input gambar dari webcam/kamera langsung
-- 🏷️ Memberikan anotasi pada bentuk yang terdeteksi dengan:
-  - Garis batas berwarna
-  - Label nama bentuk (misalnya "Lingkaran", "Persegi Panjang")
-- 🎮 Menyediakan pengalaman pembelajaran yang interaktif dan menyenangkan untuk anak-anak
-- 📊 Melacak kemajuan pembelajaran dengan sistem skor dan achievement
+* **Sound effects** for detection, saving, and achievements
+* **Celebration animations** when milestones are reached
+* **Colorful visual feedback** to enhance engagement
 
----
+### 📚 **Educational Content**
 
-## 🌟 Manfaat
-
-- 🎓 **Pembelajaran Interaktif**  
-  Input kamera real-time mengubah pembelajaran pasif menjadi pengalaman yang menarik dan eksploratif.
-
-- 🔎 **Pembelajaran Berbasis Eksplorasi**  
-  Mendorong pengguna untuk aktif mencari dan mengidentifikasi bentuk di lingkungan mereka, mempromosikan pendidikan berbasis penemuan.
-
-- 🎮 **Gamifikasi Pembelajaran**  
-  Sistem poin, tantangan, dan achievement membuat pembelajaran menjadi seperti bermain game.
-
-- 👶 **Ramah Anak**  
-  Antarmuka yang dirancang khusus untuk anak-anak dengan visual yang menarik dan kontrol yang mudah.
+* **Fun facts** about each geometric shape
+* **Easy-to-understand explanations** in Bahasa Indonesia (customizable)
+* **Visual cards** with shape definitions and trivia
 
 ---
 
-## ✅ Hasil
+## ⚖️ Scope & Limitations
 
-Aplikasi ini memungkinkan pengguna untuk menjelajahi dan mengenali bentuk di sekitar mereka menggunakan webcam atau kamera mobile.  
-Dengan memanfaatkan **computer vision**, sistem **secara otomatis mendeteksi bentuk** seperti segitiga, persegi, persegi panjang, lingkaran, bintang, dan oval dalam **waktu nyata**.
+1. **Supported Shape Types**
+   Currently supports basic geometric shapes: **triangle, square, rectangle, circle, star, and oval**.
+   Complex or irregular shapes are not yet implemented.
 
-Bentuk yang terdeteksi akan:
+2. **Lighting & Environment**
+   Detection performance may degrade under:
 
-- 🖼️ **Digarisbawahi di layar** dengan kotak berwarna
-- 🏷️ **Diberi label dengan nama bentuknya**
-- 🎯 **Ditampilkan di panel deteksi terbaru**
-- 📸 **Dapat disimpan sebagai koleksi gambar**
+   * Extreme lighting (too bright/dark)
+   * High image noise
+   * Busy or complex backgrounds
 
-Membuat pengalaman belajar menjadi edukatif dan menyenangkan!
+3. **Browser Compatibility**
+   Requires modern browsers that support WebRTC for camera access.
 
 ---
 
-## 📦 Teknologi yang Digunakan
+## 🎯 Objectives
+
+* 💡 Implement shape detection algorithms using **OpenCV**, **YOLO**, and **Python** to identify basic geometric shapes.
+* 📷 Accept image input from webcam/live camera
+* 🏷️ Annotate detected shapes with:
+
+  * Colored bounding boxes
+  * Shape name labels (e.g., "Circle", "Rectangle")
+* 🎮 Provide an engaging and interactive learning experience for children
+* 📊 Track learning progress with a point system and achievements
+
+---
+
+## 🌟 Benefits
+
+* 🎓 **Interactive Learning**
+  Live camera input transforms passive learning into an engaging, exploratory experience.
+
+* 🔎 **Exploratory-Based Learning**
+  Encourages users to actively search and identify shapes in their environment, promoting discovery-based education.
+
+* 🎮 **Gamified Learning**
+  The point system, challenges, and achievements turn learning into a game.
+
+* 👶 **Child-Friendly**
+  Interface specially designed for children with engaging visuals and simple controls.
+
+---
+
+## ✅ Result
+
+This application allows users to explore and recognize shapes in their surroundings using a webcam or mobile camera.
+Utilizing **computer vision**, the system **automatically detects shapes** such as triangles, squares, rectangles, circles, stars, and ovals in **real time**.
+
+Detected shapes will:
+
+* 🖼️ **Be highlighted on screen** with colored bounding boxes
+* 🏷️ **Be labeled with their shape name**
+* 🎯 **Appear in the latest detection panel**
+* 📸 **Be savable as part of a collection**
+
+Creating an educational and enjoyable learning experience!
+
+---
+
+## 📦 Technology Stack
 
 ### **Frontend (Web Interface)**
-- **Next.js 15** ⚡ - React framework untuk aplikasi web
-- **React 18** ⚛️ - Library UI interaktif
-- **TypeScript** 📝 - Type-safe JavaScript
-- **Tailwind CSS** 🎨 - Styling framework
-- **shadcn/ui** 🧩 - Komponen UI modern
-- **Lucide React** 🎯 - Icon library
+
+* **Next.js 15** ⚡ - React framework for web apps
+* **React 18** ⚛️ - UI library
+* **TypeScript** 📜 - Type-safe JavaScript
+* **Tailwind CSS** 🎨 - Styling framework
+* **shadcn/ui** 🧩 - Modern UI components
+* **Lucide React** 🎯 - Icon library
 
 ### **Backend (Detection Engine)**
-- **Python 3.8+** 🐍 - Bahasa pemrograman utama
-- **OpenCV** 👁️‍🗨️ - Computer vision library
-- **YOLO (Ultralytics)** 🔎 - Object detection model
-- **NumPy** 🔢 - Numerical computing
+
+* **Python 3.8+** 🐍 - Main programming language
+* **OpenCV** 🔭 - Computer vision library
+* **YOLO (Ultralytics)** 🔎 - Object detection model
+* **NumPy** 🔢 - Numerical computing
 
 ### **Additional Features**
-- **Web Audio API** 🔊 - Efek suara
-- **WebRTC** 📹 - Akses kamera browser
-- **CSS Animations** ✨ - Animasi dan transisi
+
+* **Web Audio API** 🔊 - Sound effects
+* **WebRTC** 📹 - Camera access in browser
+* **CSS Animations** ✨ - Animations and transitions
 
 ---
 
-## 🚀 Cara Instalasi dan Menjalankan
+## 🚀 Installation & Setup Guide
 
-### **Prasyarat**
-\`\`\`bash
-# Pastikan Node.js terinstall (minimal v18)
+### **Requirements**
+
+```bash
+# Ensure Node.js is installed (v18 or higher)
 node --version
 
-# Pastikan Python terinstall (minimal v3.8)
+# Ensure Python is installed (v3.8 or higher)
 python --version
-\`\`\`
+```
 
 ### **1. Setup Web Interface (Next.js)**
 
-\`\`\`bash
-# Clone atau extract project
+```bash
+# Clone or extract the project
 cd yolo-learning-app
 
 # Install dependencies
 npm install
 
-# Jalankan development server
+# Run development server
 npm run dev
-\`\`\`
+```
 
-Web interface akan berjalan di: `http://localhost:3000`
+Web app will be available at: `http://localhost:3000`
 
 ### **2. Setup Python Environment**
 
-\`\`\`bash
-# Buat virtual environment (opsional tapi direkomendasikan)
+```bash
+# Create a virtual environment (recommended)
 python -m venv yolo_env
 
-# Aktifkan virtual environment
+# Activate virtual environment
 # Windows:
 yolo_env\Scripts\activate
 # Mac/Linux:
@@ -175,23 +186,29 @@ source yolo_env/bin/activate
 
 # Install Python dependencies
 pip install ultralytics opencv-python numpy
-\`\`\`
+```
 
-### **3. Persiapan Model YOLO**
+### **3. YOLO Model Preparation**
 
-Struktur folder yang diperlukan:
-\`\`\`
+Required folder structure:
+
+```bash
 yolo-learning-app/
 ├── model2/
-│   ├── shape.pt    # Model untuk deteksi bentuk (opsional)
-│   └── name.pt     # Model untuk deteksi objek (opsional)
+│   ├── shape.pt    # Custom shape detection model (optional)
+│   └── name.pt     # Custom object detection model (optional)
 ├── scripts/
 │   └── yolo_detection.py
-└── hasil/          # Folder untuk menyimpan gambar (otomatis dibuat)
-\`\`\`
+└── hasil/          # Folder for saved images (auto-created)
+```
 
-**Catatan:** Jika tidak memiliki model custom, script akan menggunakan model pre-trained YOLO:
+**Note:** If custom models are not available, the script will fallback to pre-trained YOLO:
 
 ```python
-# Script akan otomatis download model pertama kali
-model = YOLO('yolov8n.pt')  # Nano version (paling ringan)
+# The script automatically downloads the model on first run
+model = YOLO('yolov8n.pt')  # Nano version (lightweight)
+```
+
+---
+
+Happy Detecting & Learning! 🌟
