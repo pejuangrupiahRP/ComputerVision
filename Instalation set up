@@ -1,0 +1,68 @@
+
+## 🚀 Installation & Setup Guide
+
+### **Requirements**
+
+```bash
+# Ensure Node.js is installed (v18 or higher)
+node --version
+
+# Ensure Python is installed (v3.8 or higher)
+python --version
+```
+
+### **1. Setup Web Interface (Next.js)**
+
+```bash
+# Clone or extract the project
+cd yolo-learning-app
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+```
+
+Web app will be available at: `http://localhost:3000`
+
+### **2. Setup Python Environment**
+
+```bash
+# Create a virtual environment (recommended)
+python -m venv yolo_env
+
+# Activate virtual environment
+# Windows:
+yolo_env\Scripts\activate
+# Mac/Linux:
+source yolo_env/bin/activate
+
+# Install Python dependencies
+pip install ultralytics opencv-python numpy
+```
+
+### **3. YOLO Model Preparation**
+
+Required folder structure:
+
+```bash
+yolo-learning-app/
+├── model2/
+│   ├── shape.pt    # Custom shape detection model (optional)
+│   └── name.pt     # Custom object detection model (optional)
+├── scripts/
+│   └── yolo_detection.py
+└── hasil/          # Folder for saved images (auto-created)
+```
+
+**Note:** If custom models are not available, the script will fallback to pre-trained YOLO:
+
+```python
+# The script automatically downloads the model on first run
+model = YOLO('yolov8n.pt')  # Nano version (lightweight)
+```
+
+---
+
+Happy Detecting & Learning! 🌟
