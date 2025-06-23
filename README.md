@@ -1,146 +1,127 @@
-# 🎯 Shape & Object Detective - Interactive Learning App
+🎯 Shape & Object Explorer – Interactive Learning App
+📚 Background
+The rapid advancement of computer technology and artificial intelligence—particularly in computer vision—has enabled countless innovative applications.
+One of the core capabilities of computer vision is the ability to automatically recognize and interpret shapes from visual data, whether from static images or live video streams.
 
-## 📚 Background
+Shape detection plays a crucial role in digital image analysis with applications in:
 
-The rapid advancement of computer technology and artificial intelligence—particularly in **computer vision**—has enabled countless innovative applications.
-One of the core capabilities of computer vision is the ability to **automatically recognize and interpret shapes** from visual data, whether from static images or live video streams.
+🏭 Manufacturing (quality inspection)
 
-**Shape detection** plays a crucial role in digital image analysis with applications in:
+🎥 Automated surveillance systems
 
-* 🏦 Manufacturing (quality inspection)
-* 🎥 Automated surveillance systems
-* 🤖 Robotics (navigation and interaction)
-* 🧩 Pattern recognition
-* 🏫 Educational tools
+🤖 Robotics (navigation and interaction)
 
-This project demonstrates a **real-time shape detection system** using **OpenCV**, **YOLO (You Only Look Once)**, **Next.js**, and **Python** to identify basic geometric shapes such as:
+🧩 Pattern recognition
 
-* 🔺 Triangle
-* 🔳 Square
-* 🗾 Rectangle
-* 🔸 Circle
-* ⭐ Star
-* 🥚 Oval
+🏫 Educational tools
 
-The system supports input from **live webcam feed** and displays a **child-friendly web interface** with gamified features to enhance learning experience.
+This project demonstrates a real-time shape detection system using OpenCV, YOLO (You Only Look Once), Next.js, and Python to identify basic geometric shapes such as:
 
----
+🔺 Triangle
 
-## 🎮 Key Features
+🔳 Square
 
-### 🌟 **Interactive Web Interface**
+🗾 Rectangle
 
-* **Kid-friendly design** with bright colors and engaging animations
-* **Real-time camera feed** with clearly marked scan area
-* **Intuitive controls** with large, easy-to-use buttons
+🔸 Circle
 
-### 🎯 **Gamification System**
+⭐ Star
 
-* **Score System** - Earn points for each detection and saved image
-* **Streak Counter** - Track consecutive detections for bonus points
-* **Daily Challenges** - Missions like "Circle Hunter" and "Square Master"
-* **Achievement System** - Earn badges to motivate continued learning
-* **Progress Tracking** - Comprehensive learning statistics
+🥚 Oval
 
-### 🔊 **Audio & Visual Effects**
+The system supports input from a live webcam feed and features a child-friendly web interface with gamified elements to enhance the learning experience.
 
-* **Sound effects** for detection, saving, and achievements
-* **Celebration animations** when milestones are reached
-* **Colorful visual feedback** to enhance engagement
+🎮 Key Features
+🌟 Interactive Web Interface
+Kid-friendly design with bright colors and engaging animations
 
-### 📚 **Educational Content**
+Real-time camera feed with a clearly defined scan area
 
-* **Fun facts** about each geometric shape
-* **Easy-to-understand explanations** in Bahasa Indonesia (customizable)
-* **Visual cards** with shape definitions and trivia
+Intuitive controls with large, easy-to-use buttons
 
----
+🎯 Gamification System
+Score system – Earn points for each detected shape and saved image
 
-## ⚖️ Scope & Limitations
+Streak counter – Track consecutive detections for bonus points
 
-1. **Supported Shape Types**
-   Currently supports basic geometric shapes: **triangle, square, rectangle, circle, star, and oval**.
-   Complex or irregular shapes are not yet implemented.
+Daily challenges – Missions like “Circle Hunter” and “Shape Master”
 
-2. **Lighting & Environment**
-   Detection performance may degrade under:
+Achievement system – Unlock badges to encourage continued learning
 
-   * Extreme lighting (too bright/dark)
-   * High image noise
-   * Busy or complex backgrounds
+Progress tracking – View learning statistics over time
 
-3. **Browser Compatibility**
-   Requires modern browsers that support WebRTC for camera access.
+🔊 Audio & Visual Effects
+Sound effects for detections, saves, and achievements
 
----
+Celebration animations when reaching milestones
 
-## 🎯 Objectives
+Colorful visual feedback to increase user engagement
 
-* 💡 Implement shape detection algorithms using **OpenCV**, **YOLO**, and **Python** to identify basic geometric shapes.
-* 📷 Accept image input from webcam/live camera
-* 🏷️ Annotate detected shapes with:
+📚 Educational Content
+Fun facts about each geometric shape
 
-  * Colored bounding boxes
-  * Shape name labels (e.g., "Circle", "Rectangle")
-* 🎮 Provide an engaging and interactive learning experience for children
-* 📊 Track learning progress with a point system and achievements
+Easy-to-understand explanations in Bahasa Indonesia (customizable)
 
----
+Visual flashcards with definitions and trivia
 
-## 🌟 Benefits
+⚖️ Scope & Limitations
+Supported Shape Types
+Currently supports basic geometric shapes: triangle, square, rectangle, circle, star, and oval.
+Detection of complex or irregular shapes is not yet implemented.
 
-* 🎓 **Interactive Learning**
-  Live camera input transforms passive learning into an engaging, exploratory experience.
+Lighting & Environmental Conditions
+Detection accuracy may be affected by:
 
-* 🔎 **Exploratory-Based Learning**
-  Encourages users to actively search and identify shapes in their environment, promoting discovery-based education.
+Extreme lighting (too bright/dark)
 
-* 🎮 **Gamified Learning**
-  The point system, challenges, and achievements turn learning into a game.
+High noise or poor camera resolution
 
-* 👶 **Child-Friendly**
-  Interface specially designed for children with engaging visuals and simple controls.
+Complex or cluttered backgrounds
 
----
+Browser Compatibility
+Requires a modern browser that supports WebRTC for camera access.
 
-## ✅ Result
+🎯 Objectives
+💡 Implement shape detection algorithms using OpenCV, YOLO, and Python
 
+📷 Accept image input from a webcam or live camera
+
+🏷️ Annotate detected shapes with:
+
+Colored bounding boxes
+
+Shape name labels (e.g., "Circle", "Rectangle")
+
+🎮 Provide a fun and engaging learning experience for children
+
+📊 Track learning progress using points and achievements
+
+🌟 Benefits
+🎓 Interactive Learning
+Turns passive observation into active exploration and engagement.
+
+🔎 Discovery-Based Learning
+Encourages users to find and recognize shapes in their environment.
+
+🎮 Gamified Education
+Score-based gameplay makes learning enjoyable and goal-driven.
+
+👶 Child-Friendly Interface
+Designed for young learners with attractive visuals and simple interaction.
+
+✅ Result
 This application allows users to explore and recognize shapes in their surroundings using a webcam or mobile camera.
-Utilizing **computer vision**, the system **automatically detects shapes** such as triangles, squares, rectangles, circles, stars, and ovals in **real time**.
+Powered by computer vision, the system automatically detects shapes like triangles, squares, rectangles, circles, stars, and ovals in real time.
 
 Detected shapes will:
 
-* 🖼️ **Be highlighted on screen** with colored bounding boxes
-* 🏷️ **Be labeled with their shape name**
-* 🎯 **Appear in the latest detection panel**
-* 📸 **Be savable as part of a collection**
+🖼️ Be highlighted on screen with colored bounding boxes
 
-Creating an educational and enjoyable learning experience!
+🏷️ Be labeled with their shape names
 
----
+🎯 Appear in the recent detection panel
 
-## 📦 Technology Stack
+📸 Be saved into a collection gallery
 
-### **Frontend (Web Interface)**
+Delivering an educational experience that is both engaging and enjoyable!
 
-* **Next.js 15** ⚡ - React framework for web apps
-* **React 18** ⚛️ - UI library
-* **TypeScript** 📜 - Type-safe JavaScript
-* **Tailwind CSS** 🎨 - Styling framework
-* **shadcn/ui** 🧩 - Modern UI components
-* **Lucide React** 🎯 - Icon library
-
-### **Backend (Detection Engine)**
-
-* **Python 3.8+** 🐍 - Main programming language
-* **OpenCV** 🔭 - Computer vision library
-* **YOLO (Ultralytics)** 🔎 - Object detection model
-* **NumPy** 🔢 - Numerical computing
-
-### **Additional Features**
-
-* **Web Audio API** 🔊 - Sound effects
-* **WebRTC** 📹 - Camera access in browser
-* **CSS Animations** ✨ - Animations and transitions
-
----
